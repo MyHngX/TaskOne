@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>HNG Task One</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="row">
+        <div class="img-cont">
+          <img
+            src="./MyPortrait.jpeg"
+            width="200px"
+            height="200px"
+            alt="Summy"
+            data-testid="slackDisplayImage"
+          />
+        </div>
+        <div class="col">
+          <p>Slack username: <spam data-testid="slackUserName">Summy</spam></p>
+          <p>Track: <span data-testid="myTrack">Frontend</span></p>
+          <p>
+            Link to GitHub:
+            <a data-testid="“githubURL”" href="https://github.com/MyHngX/TaskOne"
+              >https://github.com/MyHngX/TaskOne</a
+            >
+          </p>
+          <p>
+            Current day of the week:
+            <span id="weekDay" data-testid="currentDayOfTheWeek"></span>
+          </p>
+          <p>
+            Current UTC time in milliseconds:
+            <span id="utcTime" data-testid="currentUTCTime"></span>
+          </p>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
